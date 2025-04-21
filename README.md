@@ -37,6 +37,8 @@ To open it with VSCode, type "cd Karl-Kamau-Trivia-Project" then "code ."
 
 ## How to Play
 
+![Screenshot](assets/projectScreenshot.png)
+
 1. Click on the "Start Game" button to display questions.
 2. Read the questions and answer them.
 3. You will receive immediate feedback on whether your answer is correct or incorrect.
