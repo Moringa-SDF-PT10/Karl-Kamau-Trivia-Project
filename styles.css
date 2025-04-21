@@ -3,7 +3,6 @@
 }
 
 html, body{
-    /* background-image: url('./assets/blue-background.png'); */
     background-color:#1A1A1A;
     color: blue;
 }
@@ -32,7 +31,6 @@ html, body{
     color : red;
     border-radius: 6px;
     cursor: pointer;
-    /* background-color: #F0FFF0; */
 }
 
 .hidden{
