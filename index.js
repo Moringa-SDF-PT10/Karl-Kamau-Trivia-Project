@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
             let query = document.createElement("li");  
             query.innerHTML=i.question
             let choices=document.createElement("span");
-            let myarray = [i.incorrect_answers[0], i.incorrect_answers[1], i.incorrect_answers[2], i.correct_answer]
+            let myarray = [...i.incorrect_answers, i.correct_answer]
 
 
                 for(let j = 0; j<4; j++){
