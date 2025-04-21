@@ -32,7 +32,7 @@ html, body{
     border: 2px solid white;
     border-radius: 6px;
     cursor: pointer;
-    background-color: white;
+    background-color: grey;
 }
 
 .hidden{
