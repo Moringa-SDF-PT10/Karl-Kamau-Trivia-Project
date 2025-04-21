@@ -48,30 +48,22 @@ document.addEventListener("DOMContentLoaded", ()=>{
                 options.innerHTML=value;
                                 
                 options.addEventListener('click', function handleanswers(){
-                    // score.classList.add("hidden")
                     if(value===i.correct_answer){
                         score.textContent="1"
                         feedback.textContent=`Correct answer!`;
                         feedback.style.color="green"
-                        // feedback.classList.add("hidden")
                         choices.append(feedback)
                         console.log("correct!")
                         calc+=1;
-                        // choices.append(document.createElement("br"))
-                        // choices.append(score)
                     }
                     
                     else{
-                        feedback.textContent = `Incorrect answer. Correct answer is ${i.correct_answer}`
+                        feedback.innerHTML = `Incorrect answer. Correct answer is ${i.correct_answer}`
                         feedback.style.color="red"
-                        // feedback.classList.add("hidden")
                         choices.append(feedback)
                         console.log("Incorrect!")
-                        // choices.append(document.createElement("br"))
                         score.textContent="0"
-                        // choices.append(score);
                         calc-=1
-                        // score.classList.add("hidden")
                     }
 
                 })
