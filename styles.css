@@ -1,0 +1,62 @@
+#main-header{
+    text-align: center;
+}
+
+html, body{
+    background-color: white;
+    color: aqua;
+}
+
+#start-div{
+    text-align: center;
+    font-size: 20px;
+}
+
+#button{
+    color: black;
+    background-color: red;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#question-form{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.options{
+    color : red;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.hidden{
+    display: none;
+}
+
+.selected{
+    background-color: green;
+    border-color: green;
+}
+
+.submit{
+    size: 40px;
+    border-radius: 4px;
+    color: aqua;
+    text-align: center;
+    cursor: pointer;
+}
+
+#restart{
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    color: aqua;
+}
