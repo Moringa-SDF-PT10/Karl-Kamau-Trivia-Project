@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
                         feedback.textContent=`Correct answer!`;
                         feedback.style.color="green"
                         choices.append(feedback)
-                        console.log("correct!")
                         calc+=1;
                     }
                     
@@ -61,7 +60,6 @@ document.addEventListener("DOMContentLoaded", ()=>{
                         feedback.innerHTML = `Incorrect answer. Correct answer is ${i.correct_answer}`
                         feedback.style.color="red"
                         choices.append(feedback)
-                        console.log("Incorrect!")
                         score.textContent="0"
                         calc-=1
                     }

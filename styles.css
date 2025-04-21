@@ -3,8 +3,9 @@
 }
 
 html, body{
-    background-color: black;
-    color: aqua;
+    /* background-image: url('./assets/blue-background.png'); */
+    background-color:#1A1A1A;
+    color: blue;
 }
 
 #start-div{
@@ -29,10 +30,9 @@ html, body{
 
 .options{
     color : red;
-    border: 2px solid white;
     border-radius: 6px;
     cursor: pointer;
-    background-color: grey;
+    /* background-color: #F0FFF0; */
 }
 
 .hidden{
@@ -47,7 +47,7 @@ html, body{
 .submit{
     size: 40px;
     border-radius: 4px;
-    color: aqua;
+    color: black;
     text-align: center;
     cursor: pointer;
 }
@@ -58,5 +58,5 @@ html, body{
     cursor: pointer;
     border-radius: 4px;
     text-align: center;
-    color: aqua;
+    color: black;
 }
