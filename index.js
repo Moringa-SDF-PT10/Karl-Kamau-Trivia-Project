@@ -105,4 +105,13 @@ document.addEventListener("DOMContentLoaded", ()=>{
     questionform.append(totalscore);
     questionform.append(document.createElement("br")); 
     questionform.append(restart);
+
+    document.querySelectorAll(".options").forEach((option) => {
+        option.addEventListener("mouseover", function() {
+            option.classList.add("selected")
+        })
+        option.addEventListener("mouseout", function() {
+            option.classList.remove("selected")
+        })
+    })
 }) 
