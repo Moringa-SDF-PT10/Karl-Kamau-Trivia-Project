@@ -1,62 +1,60 @@
 #main-header{
     text-align: center;
-}
-
-html, body{
-    background-color: black;
-    color: aqua;
-}
-
-#start-div{
+    }
+    
+    html, body{
+    background-color:#1A1A1A;
+    color: blue;
+    }
+    
+    #start-div{
     text-align: center;
     font-size: 20px;
-}
-
-#button{
+    }
+    
+    #button{
     color: black;
     background-color: red;
     border-radius: 4px;
     border: 1px solid black;
     cursor: pointer;
-}
-
-#question-form{
+    }
+    
+    #question-form{
     margin-left: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 22px;
     margin-left: 10px;
-}
-
-.options{
+    }
+    
+    .options{
     color : red;
-    border: 2px solid white;
     border-radius: 6px;
     cursor: pointer;
-    background-color: white;
-}
-
-.hidden{
+    }
+    
+    .hidden{
     display: none;
-}
-
-.selected{
+    }
+    
+    .selected{
     background-color: green;
     border-color: green;
-}
-
-.submit{
+    }
+    
+    .submit{
     size: 40px;
     border-radius: 4px;
-    color: aqua;
+    color: black;
     text-align: center;
     cursor: pointer;
-}
-
-#restart{
+    }
+    
+    #restart{
     width: 70px;
     height: 20px;
     cursor: pointer;
     border-radius: 4px;
     text-align: center;
-    color: aqua;
-}
+    color: black;
+    }
